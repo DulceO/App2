@@ -27,7 +27,7 @@ namespace Aplicacion_2
                 }
                 catch
                 {
-                    Console.WriteLine("Error, formato incorrecto");
+                    Console.WriteLine("Error formato incorrecto");
                     Console.Write("Ingrese el primer valor: ");
                     val1 = int.Parse(Console.ReadLine());
                 }
@@ -63,7 +63,7 @@ namespace Aplicacion_2
                     }
                     catch
                     {
-                        Console.WriteLine("Error, formato incorrecto");
+                        Console.WriteLine("Error formato incorrecto");
                         Console.Write("Ingrese el primer valor: ");
                         val1 = int.Parse(Console.ReadLine());
                     }
